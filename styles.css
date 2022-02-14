@@ -96,3 +96,17 @@ html {
 .calendar-search {
   background-color: transparent;
 }
+@media screen and (max-width: 451px) {
+.calendar{
+  width: 36rem;
+}
+.weekdays div {
+width: calc(35.2rem/7);
+}
+.days div {
+  width: calc(31.2rem / 7);}
+
+
+
+
+}
